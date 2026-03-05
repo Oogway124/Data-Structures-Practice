@@ -4,6 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Integer[] arr = {7, 14, 11, 8, 9};
+
+        SortingAlgorithms.mergeSort(arr);
+
+        for (int x : arr) {
+            System.out.print(x + " ");
+        }
+
         LinkedStack<Integer> stack = new LinkedStack<>();
         Scanner scanner = new Scanner(System.in);
 
